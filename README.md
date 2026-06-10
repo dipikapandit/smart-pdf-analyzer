@@ -1,4 +1,4 @@
-# 📄 Smart PDF Analyzer
+# 📄 ShaftScan - Smart PDF Analyzer
 
 A full-stack document intelligence web application that lets users upload PDFs and instantly extract summaries, keywords, and searchable content using a FastAPI backend and React frontend.
 
@@ -7,8 +7,8 @@ A full-stack document intelligence web application that lets users upload PDFs a
 ## 🚀 Live Demo (optional)
 
 *(Will be added later after deployment)*
-Frontend: `xxx`
-Backend: `xxx`
+Frontend: `https://smart-pdf-analyzer-two.vercel.app/`
+Backend: `⚠️ Public API (no authentication required)`
 
 ---
 
@@ -103,7 +103,7 @@ cd smart-pdf-analyzer
 
 ```bash
 cd backend
-pip install fastapi uvicorn pypdf nltk scikit-learn python-multipart
+pip install -r requirements.txt
 ```
 
 Run server:
@@ -141,6 +141,13 @@ http://localhost:5173
 ```
 
 ---
+## ⚙️ Environment Variables
+
+Frontend requires:
+
+VITE_API_URL= `https://shaftscan.onrender.com`
+
+---
 
 ## 📊 API Endpoints
 
@@ -174,6 +181,13 @@ Response:
   "results": ["matching sentences..."]
 }
 ```
+
+---
+
+## 🔒 Security Note
+
+This project does not store uploaded files permanently.  
+All processing happens in memory on the backend.
 
 ---
 
