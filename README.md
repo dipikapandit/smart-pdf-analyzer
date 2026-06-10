@@ -4,9 +4,8 @@ A full-stack document intelligence web application that lets users upload PDFs a
 
 ---
 
-## 🚀 Live Demo (optional)
+## 🚀 Live Demo
 
-*(Will be added later after deployment)*
 Frontend: `https://smart-pdf-analyzer-two.vercel.app/`
 Backend: `⚠️ Public API (no authentication required)`
 
