@@ -219,11 +219,12 @@ export default function App() {
 
       <header className="topbar">
         <div>
-          <p className="eyebrow">ShaftScan</p>
+          <img src="/logo.png" alt="ShaftScan logo" className="logo" />
+          <p className="eyebrow">BY DIPIKACHU</p>
          
         </div>
 
-        <div className="topbar-chip">Extract the Hidden Data</div>
+        <div className="topbar-chip">Built with Python</div>
       </header>
 
       <main className="page-content">
